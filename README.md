@@ -1,7 +1,7 @@
-# Embedded-Activities
 # Embedded C Programming Activities with Continuous Integration and Code Quality
 
 # Activity 1 
+   If car seat is occupied and heater is ON indicate by turning on a LED using AVR programming
 
 ## In Action
 
