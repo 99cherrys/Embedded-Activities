@@ -31,14 +31,14 @@ int main(void)
         {
             if(!(PINC &(ON<<SWITCH_PIN)))
             {
-        change_led_state(LED_ON);
+        change_led_state(ON);
 		delay_ms(LED_ON_TIME);
             }
     }
     
     else
     {
-        change_led_state(LED_OFF);
+        change_led_state(OFF);
 		delay_ms(LED_OFF_TIME);	
     }
 	}
