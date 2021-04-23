@@ -13,5 +13,5 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|TBD|TBD|TBD|
+|([![Compile-Linux](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml/badge.svg)](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml))|TBD|TBD|
 
