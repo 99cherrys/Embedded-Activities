@@ -6,7 +6,7 @@
 ## In Action
 
 ### 1. Car seat vaccant (button pulled up) and heater switch is off
-![OFF](simulation/1.png)
+![OFF](Simulation/1.png)
 
 ### 2. Car seat vaccant and heater switch is on
 
