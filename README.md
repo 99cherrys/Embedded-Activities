@@ -13,5 +13,5 @@
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml/badge.svg)](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml)|TBD|TBD|
+|[![Compile-Linux](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml/badge.svg)](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/99cherrys/Embedded-Activities/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99cherrys/Embedded-Activities/actions/workflows/cppcheck.yml)|TBD|
 
