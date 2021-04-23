@@ -31,8 +31,6 @@
 
 /**
  * @brief initialize the pull up natured peripherals
- * 
- * @param void
  */
 
 void peripheral_init(void);
