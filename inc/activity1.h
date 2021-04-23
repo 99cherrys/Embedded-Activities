@@ -42,8 +42,8 @@ void peripheral_init(void);
  * 
  * @param state Pin level to which the LED Pin should be set
  */
-void change_led_state(uint8_t state);
-
+void led_on(uint8_t state);
+void led_off(uint8_t state);
 
 
 #endif /** __ACTIVITY1_H_ */
