@@ -1,23 +1,23 @@
 # Embedded C Programming Activities with Continuous Integration and Code Quality
 
 # Activity 1 
-   If car seat is occupied and heater is ON indicate by turning on a LED using AVR programming
+   ## If car seat is occupied and heater is ON indicate by turning on a LED using AVR programming
 
-## In Action
+### In Action
 
-### 1. Car seat vaccant (button pulled up) and heater switch is off
+#### 1. Car seat vaccant (button pulled up) and heater switch is off
 ![OFF](Simulation/1.png)
 
-### 2. Car seat vaccant and heater switch is on
+#### 2. Car seat vaccant and heater switch is on
 ![OFF](Simulation/2.png)
 
-### 3. Car seat is occupied (button pushed down) and heater switch is off
+#### 3. Car seat is occupied (button pushed down) and heater switch is off
 ![OFF](Simulation/4.jpeg)
 
-### 4. Car seat is occupied and heater switch is on
+#### 4. Car seat is occupied and heater switch is on
 ![ON](Simulation/3.jpeg)
 
-#### CI and Code Quality
+##### CI and Code Quality
 
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
