@@ -1,4 +1,7 @@
+#include "project_config.h"
+
 #include "user_utils.h"
+#include "activity1.h"
 
 
 void delay_ms(uint32_t delay_time)
