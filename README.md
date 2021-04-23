@@ -12,10 +12,10 @@
 ![OFF](Simulation/2.png)
 
 #### 3. Car seat is occupied (button pushed down) and heater switch is off
-![OFF](Simulation/4.jpeg)
+![OFF](Simulation/3.jpeg)
 
 #### 4. Car seat is occupied and heater switch is on
-![ON](Simulation/3.jpeg)
+![ON](Simulation/4.jpeg)
 
 ##### CI and Code Quality
 
