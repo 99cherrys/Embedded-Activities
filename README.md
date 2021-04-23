@@ -5,16 +5,16 @@
 
 ### In Action
 
-#### 1. Car seat vacant (button pulled up) and heater switch is off
+#### 1. Car seat vacant (button pulled up) and heater switch is off: LED is OFF
 ![OFF](Simulation/1.png)
 
-#### 2. Car seat vacant and heater switch is on
+#### 2. Car seat vacant and heater switch is on: LED is OFF
 ![OFF](Simulation/2.png)
 
-#### 3. Car seat is occupied (button pushed down) and heater switch is off
+#### 3. Car seat is occupied (button pushed down) and heater switch is off: LED is OFF
 ![OFF](Simulation/3.jpeg)
 
-#### 4. Car seat is occupied and heater switch is on
+#### 4. Car seat is occupied and heater switch is on: LED is turned ON
 ![ON](Simulation/4.jpeg)
 
 ##### CI and Code Quality
