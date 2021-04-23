@@ -30,11 +30,20 @@
  */
 
 /**
+ * @brief initialize the pull up natured peripherals
+ * 
+ * @param void
+ */
+
+void peripheral_init(void);
+
+/**
  * @brief Change the state of the LED Pin according to the state of the push button in car seat and heater switch
  * 
  * @param state Pin level to which the LED Pin should be set
  */
 void change_led_state(uint8_t state);
+
 
 
 #endif /** __ACTIVITY1_H_ */
