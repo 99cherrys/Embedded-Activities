@@ -28,7 +28,12 @@ void peripheral_init(void)
     SWITCH |= (ON <<SWITCH_PIN);
 }
 
-void change_led_state(uint8_t state)
+void led_on(uint8_t state)
 {
-	LED |= (ON<<LED_PIN);
+	LED |= (state<<LED_PIN);
+}
+
+void led_off(uint8_t state)
+{
+	LED &= (state<<LED_PIN);
 }
