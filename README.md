@@ -5,9 +5,13 @@
 
 ## In Action
 
-|ON|OFF|
-|:--:|:--:|
-|![ON]()|![OFF]()|
+### 1. Car seat vaccant (button pulled up) and heater switch is off
+
+### 2. Car seat vaccant and heater switch is on
+
+### 3. Car seat is occupied (button pushed down) and heater switch is off
+
+### 4. Car seat is occupied and heater switch is on
 
 #### CI and Code Quality
 
