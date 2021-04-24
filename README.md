@@ -4,6 +4,12 @@
 # Activity 1 
    ## If car seat is occupied and heater is ON indicate by turning on a LED using AVR programming
 
+##### CI and Code Quality
+
+|Build|Cppcheck|Codacy|
+|:--:|:--:|:--:|
+|[![Compile-Linux](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml/badge.svg)](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/99cherrys/Embedded-Activities/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99cherrys/Embedded-Activities/actions/workflows/cppcheck.yml)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e67c356d365c44ab8034f155c7f1e93a)](https://www.codacy.com/gh/99cherrys/Embedded-Activities/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99cherrys/Embedded-Activities&amp;utm_campaign=Badge_Grade) |
+
 ### In Action
 
 #### 1. Car seat vacant (button pulled up) and heater switch is off: LED is OFF
@@ -18,9 +24,5 @@
 #### 4. Car seat is occupied and heater switch is on: LED is turned ON
 ![ON](Simulation/4.jpeg)
 
-##### CI and Code Quality
 
-|Build|Cppcheck|Codacy|
-|:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml/badge.svg)](https://github.com/99cherrys/Embedded-Activities/actions/workflows/compile.yml)|[![Cppcheck](https://github.com/99cherrys/Embedded-Activities/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/99cherrys/Embedded-Activities/actions/workflows/cppcheck.yml)| [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e67c356d365c44ab8034f155c7f1e93a)](https://www.codacy.com/gh/99cherrys/Embedded-Activities/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=99cherrys/Embedded-Activities&amp;utm_campaign=Badge_Grade) |
 
