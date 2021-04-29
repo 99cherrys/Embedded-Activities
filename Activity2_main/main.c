@@ -22,15 +22,18 @@
 
 int main(void)
 {
-
-    InitADC(); // Initialize ADC
+    // Initialize ADC
+    InitADC(); 
     
-    temp=0;    // Initialize a temp variable to 0
+    // Initialize a temp variable to 0
+    temp=0;    
 
 
     while(1)
     {
-        temp = ReadADC(5); // Read analog values from channel 5
+        // Read analog values from channel 5
+        temp = ReadADC(5); 
+        
         _delay_ms(DELAY_TIME);
     }
 
