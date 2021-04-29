@@ -30,7 +30,7 @@ int main(void)
 
     while(1)
     {
-        temp = ReadADC(5);
+        temp = ReadADC(5); // Read analog values from channel 5
         _delay_ms(DELAY_TIME);
     }
 
