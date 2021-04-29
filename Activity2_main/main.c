@@ -31,7 +31,7 @@ int main(void)
     while(1)
     {
         temp = ReadADC(5);
-        _delay_ms(200);
+        _delay_ms(DELAY_TIME);
     }
 
     return 0;
