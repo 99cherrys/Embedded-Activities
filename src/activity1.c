@@ -44,7 +44,7 @@ void led_on(uint8_t state)
 
 
 /**
- * @brief if both the conditions not satisfied turn LED ON
+ * @brief if both the conditions not satisfied turn LED OFF
  * 
  */
 void led_off(uint8_t state)
