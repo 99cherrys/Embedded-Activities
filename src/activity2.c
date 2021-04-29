@@ -1,3 +1,5 @@
+#include "activity1.h"
+
 void InitADC()
 {
     ADMUX = (1<<REFS0); //For AREF = AVCC
