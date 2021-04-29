@@ -27,6 +27,12 @@
 #define DELAY_TIME     (200)  /**< LED ON time in milli seconds  */
 
 
+/**
+ * Variable declaration
+ */
+ uint16_t temp; 
+
+
 
 /**
  * Function Definitions
