@@ -2,8 +2,11 @@
 
 void InitADC()
 {
-    ADMUX = (1<<REFS0); //For AREF = AVCC
-    ADCSRA = (1<<ADEN) | (7<<ADPS0); //Enable ADC and Prescaller of 128FCPU (128 bit)
+    //For AREF = AVCC
+    ADMUX = (1<<REFS0); 
+    
+    //Enable ADC and Prescaller of 128FCPU (128 bit)
+    ADCSRA = (1<<ADEN) | (7<<ADPS0); 
 }
 
 uint16_t ReadADC(uint16_t ch)
