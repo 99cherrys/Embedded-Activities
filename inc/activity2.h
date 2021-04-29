@@ -39,17 +39,16 @@
  */
 
 /**
- * @brief initialize the pull up natured peripherals
+ * @brief initialize the ADC
  */
-
-void peripheral_init(void);
+void InitADC();
 
 /**
- * @brief Change the state of the LED Pin according to the state of the push button in car seat and heater switch
+ * @brief Read analog values from the analog channel and convert to digital value
  * 
- * @param state Pin level to which the LED Pin should be set
+ * @param Analog channel (0-6)
  */
-void led_on(uint8_t state);
+uint16_t ReadADC(uint16_t ch);
 
 
 
