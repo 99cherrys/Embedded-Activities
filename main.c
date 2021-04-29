@@ -8,9 +8,7 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#include "project_config.h"
 
-#include "user_utils.h"
 #include "activity1.h"
 
 /**
