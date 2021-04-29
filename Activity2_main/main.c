@@ -23,8 +23,9 @@
 int main(void)
 {
 
-    InitADC();
-    uint16_t temp=0; //initialize a temp variable to 0
+    InitADC(); // Initialize ADC
+    
+    temp=0;    // Initialize a temp variable to 0
 
 
     while(1)
