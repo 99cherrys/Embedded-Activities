@@ -12,6 +12,12 @@
  */
 
 /**
+ * Include files
+ */ 
+#include <avr/io.h>
+
+
+/**
  * Macro Definitions
  */
 #define ON 	(1)			/**< LED state HIGH */
@@ -19,11 +25,6 @@
 
 #define LED_ON_TIME     (200)  /**< LED ON time in milli seconds  */
 #define LED_OFF_TIME    (100)   /**< LED OFF time in milli seconds */
-
-/**
- * Include files
- */ 
-#include <avr/io.h>
 
 
 /**
