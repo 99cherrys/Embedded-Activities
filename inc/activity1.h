@@ -15,7 +15,7 @@
  * Include files
  */ 
 #include <avr/io.h>
-
+#include <util/delay.h>
 
 /**
  * Macro Definitions
@@ -57,6 +57,16 @@ void peripheral_init(void);
  */
 void led_on(uint8_t state);
 void led_off(uint8_t state);
+
+
+
+/**
+ * @brief Function to generate delay in micro seconds
+ * 
+ * @param[in] delay_time Delay in Micro seconds
+ * 
+ */
+void delay_ms(uint32_t delay_time);
 
 
 #endif /** __ACTIVITY1_H_ */
