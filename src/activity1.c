@@ -15,6 +15,7 @@ void delay_ms(uint32_t delay_time)
  * @brief Initialize all the Peripherals and pin configurations
  * 
  */
+
 void peripheral_init(void)
 {
 	/* Configure LED Pin */
