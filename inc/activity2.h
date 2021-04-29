@@ -21,9 +21,6 @@
 /**
  * Macro Definitions
  */
-#define ON 	(1)			/**< LED state HIGH */
-#define OFF	(0)			/**< LED state LOW */
-
 #define DELAY_TIME     (200)  /**< LED ON time in milli seconds  */
 
 
