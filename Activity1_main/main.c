@@ -1,5 +1,5 @@
 /**
- * @file project_main.c
+ * @file project1_main.c
  * @author Charanya ()
  * @brief Project to Turn ON an LED at 200ms ON and 100 ms OFF Interval
  * @version 0.1
