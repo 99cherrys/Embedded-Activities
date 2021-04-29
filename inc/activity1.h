@@ -25,6 +25,20 @@
  */ 
 #include <avr/io.h>
 
+
+/**
+ * Macro Definitions
+ */
+
+#define LED  (PORTB)          /**< LED Port Number */
+#define LED_PIN (PB0)         /**< LED Pin Number  */
+
+#define BUTTON (PORTD)        /** Push Button Port Number of the car seat */
+#define BUTTON_PIN (PD0)      /** Push Button Pin Number of the car seat */
+
+#define SWITCH (PORTC)       /**  Switch Port Number of the Heater */
+#define SWITCH_PIN (PC0)     /**  Switch Pin Number of the car Heater */
+
 /**
  * Function Definitions
  */
