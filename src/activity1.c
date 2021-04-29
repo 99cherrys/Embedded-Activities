@@ -1,6 +1,3 @@
-#include "project_config.h"
-
-#include "user_utils.h"
 #include "activity1.h"
 
 
