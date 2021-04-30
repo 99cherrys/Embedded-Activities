@@ -31,6 +31,6 @@
 ### In Action
 
 #### 1. ADC conversion of temperature sensor 
-![ADC](Simulation/activity2.PNG)
+![ADC](Simulation/Activity2/activity2.PNG)
 
 
