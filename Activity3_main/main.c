@@ -24,7 +24,7 @@ int main()
     InitADC();
     PWM_init();
 
-    uint8_t temp=0; //initialize a temp variable to 0
+    temp=0; //initialize a temp variable to 0
    
     while(1)
     {
