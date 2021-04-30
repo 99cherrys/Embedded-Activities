@@ -65,13 +65,8 @@ uint16_t ReadADC(uint16_t ch)
     ADCSRA |= (1<<ADIF);
     return(ADC);
 }
-/**
- * @brief To write the 8-bit data to be tranmitted via USART on the transmitter buffer
- *
- * @param data the dataframe to be transmitted
- */
 
-/* Writes a character on Tx pin */
+
 void write_ch_tx(char ch)
 {
     while(!(UCSR0A & (1<<UDRE0)));
@@ -79,7 +74,6 @@ void write_ch_tx(char ch)
 }
 
 
-/* Write a sentence on Tx pin*/
 void write_tx(char *str)
 {
     uint8_t i=0;
@@ -116,10 +110,6 @@ void peripheral_init(void)
     SWITCH |= (ON <<SWITCH_PIN);
 }
 
-/**
- * @brief if both the conditions(seat occupied and heater switch is ON) satisfied turn LED ON
- *
- */
 
 void led_on(uint8_t state)
 {
@@ -134,10 +124,7 @@ void delay_ms(uint32_t delay_time)
 		_delay_ms(1);
 	}
 }
-/**
- * @brief if both the conditions not satisfied turn LED OFF
- *
- */
+
 void led_off(uint8_t state)
 {
 	LED &= (state<<LED_PIN);
