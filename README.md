@@ -51,5 +51,10 @@
    ## Seat heating app using UART Protocol
    
    ### In Action
-   #### 1. When seat button and heater switch is off the system is in OFF state
-   ![35D](Simulation/Activity4/off.PNG)
+   #### 1. When seat button and heater switch are off the system is in OFF state
+   ![OFF state](Simulation/Activity4/off.PNG)
+   
+    #### 2. When seat button and heater switch are turned on the LED indicator turns on
+    #### Potentiometer is varied and temperature is read and the value is displyed on the serial monitor in degree centigrade
+    ##### (i) 20 degree celcius
+   ![20C](Simulation/Activity4/20.PNG)
