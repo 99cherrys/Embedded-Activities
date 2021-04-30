@@ -77,11 +77,7 @@ void write_ch_tx(char ch)
     while(!(UCSR0A & (1<<UDRE0)));
     UDR0 = ch;
 }
-/* Reads a character on Rx pin */
-// char read_ch_rx(){
-//     while(!(UCSR0A & (1<<RXC0)));
-//     return UDR0;
-// }
+
 
 /* Write a sentence on Tx pin*/
 void write_tx(char *str)
