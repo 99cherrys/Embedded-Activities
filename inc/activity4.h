@@ -17,11 +17,17 @@
 #define BAUD 9600
 #define BAUDRATE ((F_CPU)/(BAUD*0x16UL)-1)
 
+//Declare global variables
 uint16_t temp; 
 uint16_t degree;
 
 void PWM_init();
 
+/**
+ * @brief to convert the temperature to required range and display 20/25/29/33 degree celcius
+ *
+ * @param data read from the potentiometer temperature sensor
+ */
 uint16_t heat(uint16_t temp);
 
 void InitADC();
@@ -50,6 +56,10 @@ void peripheral_init(void);
  */
 void led_on(uint8_t state);
 
+/**
+ * @brief if both the conditions not satisfied turn LED OFF
+ *
+ */
 void led_off(uint8_t state);
 
 void delay_ms(uint32_t delay_time);
