@@ -1,8 +1,22 @@
 #ifndef __ACTIVITY4_H_
 #define __ACTIVITY4_H_
+/**
+ * @file activity4.h
+ * @author Charanya ()
+ * @brief Project to build a seat heating app using PWM signals and UART protocol
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 
+
+/**
+ * Include files
+ */ 
 #include <avr/io.h>
-#include<util/delay.h>
+
 #define ON 	(1)			/**< LED state HIGH */
 #define OFF	(0)			/**< LED state LOW */
 
