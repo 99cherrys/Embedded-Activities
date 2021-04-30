@@ -12,33 +12,28 @@ void PWM_init()
 
 }
 
-uint8_t heat(uint16_t temp)
+void heat(uint16_t temp)
 {
     uint16_t t = 0;
     if (temp>=0 && temp<=205)
     {
         OCR1A=205;
-        t = 20;
     }
 
     else if (temp>=210 && temp<=500)
     {
         OCR1A=410;
-        t = 25;
     }
 
     else if (temp>=510 && temp<=700)
     {
         OCR1A=716;
-        t = 29;
     }
 
     else if (temp>=710 && temp<=1024)
     {
         OCR1A=972;
-        t = 33;
     }
-return t;
 }
 
 void InitADC()
