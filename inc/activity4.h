@@ -44,10 +44,15 @@ void usart_init();
 
 void peripheral_init(void);
 
+/**
+ * @brief if both the conditions(seat occupied and heater switch is ON) satisfied turn LED ON
+ *
+ */
 void led_on(uint8_t state);
+
+void led_off(uint8_t state);
 
 void delay_ms(uint32_t delay_time);
 
-void led_off(uint8_t state);
 
 int Led(void);
