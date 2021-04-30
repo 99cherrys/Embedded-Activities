@@ -56,5 +56,16 @@
    
    #### 2. When seat button and heater switch are turned on the LED indicator turns on
    #### Potentiometer is varied and temperature is read and the value is displyed on the serial monitor in degree centigrade
+   
    ##### (i) 20 degree celcius
    ![20C](Simulation/Activity4/20.PNG)
+
+   ##### (ii) 25 degree celcius
+   ![25C](Simulation/Activity4/25.PNG)
+   
+   ##### (iii) 29 degree celcius
+   ![29C](Simulation/Activity4/29.PNG)
+   
+   ##### (iv) 33 degree celcius
+   ![33C](Simulation/Activity4/33.PNG)
+   
