@@ -20,6 +20,9 @@
 // Global variable declaration
 uint8_t temp;
 
+/**
+ * @brief to initialize PWM
+ */
 void PWM_init();
 
 /**
