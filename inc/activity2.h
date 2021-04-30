@@ -27,7 +27,7 @@
 /**
  * Variable declaration
  */
- uint16_t temp; 
+ uint8_t temp; 
 
 
 
