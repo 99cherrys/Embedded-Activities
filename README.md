@@ -33,4 +33,19 @@
 #### 1. ADC conversion of temperature sensor 
 ![ADC](Simulation/Activity2/activity2.PNG)
 
+# Activity 3 
+   ## To obtain PWM signal from a Temperature sensor (Potentiometer)
 
+### In Action
+
+#### 1. PWM signal of Duty cycle (D) = 35% 
+![35D](Simulation/Activity3/35D.png)
+
+#### 2. PWM signal of Duty cycle (D) = 50% 
+![50D](Simulation/Activity3/50D.png)
+
+#### 3. PWM signal of Duty cycle (D) = 75% 
+![75D](Simulation/Activity3/75D.png)
+
+
+   
