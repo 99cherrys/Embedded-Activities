@@ -29,13 +29,15 @@ int main(void)
     PWM_init();
     
     int state;
-    //initialize a temp variable to 0
+    //initialize a temp variable and degree variable to 0
     
      temp=0; 
      degree=0;
 
     while(1)
     {
+        // read status of seat button and heater switch
+        // LED turns on if both the switches are ON
        state = Led();
 
     if(state)
@@ -58,6 +60,8 @@ int main(void)
                write_tx("33");
 write_tx("C\n");
     }
+        
+    // If both the switches or either of the switches are off led does'nt glow    
     else
         write_tx("Heater is OFF\n");
     }
