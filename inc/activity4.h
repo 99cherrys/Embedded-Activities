@@ -17,6 +17,8 @@
 #define BAUD 9600
 #define BAUDRATE ((F_CPU)/(BAUD*0x16UL)-1)
 
+uint8_t temp=0; 
+     uint8_t degree=0;
 
 void PWM_init();
 
