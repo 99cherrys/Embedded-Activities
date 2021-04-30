@@ -12,9 +12,8 @@ void PWM_init()
 
 }
 
-void heat(uint16_t temp)
+void heat(uint8_t temp)
 {
-    uint16_t t = 0;
     if (temp>=0 && temp<=205)
     {
         OCR1A=205;
@@ -42,7 +41,7 @@ void InitADC()
     ADCSRA = (1<<ADEN) | (7<<ADPS0); //Enable ADC and Prescaller of 128FCPU (128 bit)
 }
 
-uint16_t ReadADC(uint16_t ch)
+uint8_t ReadADC(uint8_t ch)
 {
     //select ADC channel ch must be 0 to 7
 
