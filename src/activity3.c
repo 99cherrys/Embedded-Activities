@@ -1,3 +1,5 @@
+#include"activity3.h"
+
 void PWM_init()
 {
     // non-inverting mode for PWM gneration and fast PWM - 10 bit mode with TOP = 0x03ff for TCCR1A
