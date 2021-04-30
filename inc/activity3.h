@@ -2,7 +2,7 @@
 
 void PWM_init();
 
-uint8_t heat(uint16_t temp);
+void heat(uint16_t temp);
 
 void InitADC();
 
