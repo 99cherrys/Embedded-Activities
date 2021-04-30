@@ -1,6 +1,20 @@
 #ifndef __ACTIVITY3_H_
 #define __ACTIVITY3_H_
+/**
+ * @file activity3.h
+ * @author Charanya ()
+ * @brief Project to generate PWM based temperature sensor
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 
+
+/**
+ * Include files
+ */ 
 #include <avr/io.h>
 
 uint8_t temp;
