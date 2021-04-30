@@ -38,6 +38,9 @@
 uint16_t temp; 
 uint16_t degree;
 
+/**
+ * @brief to initialize PWM
+ */
 void PWM_init();
 
 /**
@@ -47,8 +50,16 @@ void PWM_init();
  */
 uint16_t heat(uint16_t temp);
 
+/**
+ * @brief to initialize ADC
+ */
 void InitADC();
 
+/**
+ * @brief to read ADC value
+ *
+ * @param channel number of ADC
+ */
 uint16_t ReadADC(uint16_t ch);
 
 /**
