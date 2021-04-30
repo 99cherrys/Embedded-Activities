@@ -12,9 +12,9 @@ void PWM_init()
 
 }
 
-uint8_t heat(uint8_t temp)
+uint16_t heat(uint16_t temp)
 {
-    uint8_t t = 0;
+    uint16_t t = 0;
     if (temp>=0 && temp<=205)
     {
         OCR1A=205;
