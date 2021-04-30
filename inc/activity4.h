@@ -1,3 +1,6 @@
+#ifndef __ACTIVITY1_H_
+#define __ACTIVITY1_H_
+
 #include <avr/io.h>
 #include<util/delay.h>
 #define ON 	(1)			/**< LED state HIGH */
@@ -48,6 +51,10 @@ void write_tx(char *str);
 
 void usart_init();
 
+/**
+ * @brief initialize ports for LED, outpot port for PWM 
+ *
+ */
 void peripheral_init(void);
 
 /**
@@ -64,5 +71,10 @@ void led_off(uint8_t state);
 
 void delay_ms(uint32_t delay_time);
 
-
+/**
+ * @brief Check the status of heater switch and seat button and return 1 if both the switches are On
+ *
+ */
 int Led(void);
+
+#endif
