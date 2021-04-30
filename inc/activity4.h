@@ -28,8 +28,16 @@ void InitADC();
 
 uint16_t ReadADC(uint16_t ch);
 
+/**
+ * @brief To write the 8-bit data to be tranmitted via USART on the transmitter buffer
+ *
+ * @param data the dataframe to be transmitted
+ */
+
+/* Writes a character on Tx pin */
 void write_ch_tx(char ch);
 
+/* Writes a character on Tx pin */
 void write_tx(char *str);
 
 void usart_init();
