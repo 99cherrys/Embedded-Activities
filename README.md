@@ -47,7 +47,7 @@
 #### 3. PWM signal of Duty cycle (D) = 75% 
 ![75D](Simulation/Activity3/75D.PNG)
 
-# Activity 3 
+# Activity 4
    ## Seat heating app using UART Protocol
    
    ### In Action
