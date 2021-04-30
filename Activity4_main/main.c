@@ -11,14 +11,28 @@
 
 #include<activity4.h>
 
+/**
+ * @brief Main function where the code execution starts
+ * 
+ * @return int Return 0 if the program completes successfully
+ *@note Initialize peripherals PORTD and PORTC for seat button and heater switch
+ * @note PORTB0 is in sink config. i.e when pin is Low, the LED will turn OFF
+ * @note PORTB0 is in sink config. i.e when pin is High, the LED will turn ON
+ * @note Initialize ADC and PWM, the adC ourput is obtained from the PORT B1
+ * @note Initialize UART to write the temperature values to the serial monitor
+ */
+
 int main(void)
 {
     peripheral_init();
     InitADC();
     PWM_init();
+    
     int state;
-     uint8_t temp=0; //initialize a temp variable to 0
-     uint8_t degree=0;
+    //initialize a temp variable to 0
+    
+     temp=0; 
+     degree=0;
 
     while(1)
     {
