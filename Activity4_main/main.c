@@ -6,9 +6,8 @@ int main(void)
     InitADC();
     PWM_init();
     int state;
-     uint16_t temp=0; //initialize a temp variable to 0
-     uint16_t degree=0;
-     write_tx("Temperature Reading is: ");
+     uint8_t temp=0; //initialize a temp variable to 0
+     uint8_t degree=0;
 
     while(1)
     {
@@ -16,6 +15,7 @@ int main(void)
 
     if(state)
     {
+         write_tx("Temperature Reading is: ");
         temp = ReadADC(5);
         degree = heat(temp);
         _delay_ms(200);
