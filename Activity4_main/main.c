@@ -1,3 +1,14 @@
+/**
+ * @file project4_main.c
+ * @author Charanya ()
+ * @brief Project to build a seat heating app using UART protocol
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include<activity4.h>
 
 int main(void)
