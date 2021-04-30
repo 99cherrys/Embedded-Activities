@@ -14,17 +14,17 @@ void PWM_init()
 
 void heat(uint8_t temp)
 {
-    if (temp>=0 && temp<=205)
+    if (temp>=0 && temp<=209)
     {
         OCR1A=205;
     }
 
-    else if (temp>=210 && temp<=500)
+    else if (temp>=210 && temp<=509)
     {
         OCR1A=410;
     }
 
-    else if (temp>=510 && temp<=700)
+    else if (temp>=510 && temp<=709)
     {
         OCR1A=716;
     }
