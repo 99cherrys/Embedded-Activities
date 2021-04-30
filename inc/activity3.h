@@ -1,5 +1,7 @@
 #include <avr/io.h>
 
+uint8_t temp;
+
 void PWM_init();
 
 void heat(uint16_t temp);
