@@ -15,25 +15,25 @@ void PWM_init()
 uint8_t heat(uint16_t temp)
 {
     uint16_t t = 0;
-    if (0<=temp && temp<=205)
+    if (temp>=0 && temp<=205)
     {
         OCR1A=205;
         t = 20;
     }
 
-    else if (210<=temp && temp<=500)
+    else if (temp>=210 && temp<=500)
     {
         OCR1A=410;
         t = 25;
     }
 
-    else if (510<=temp && temp<=700)
+    else if (temp>=510 && temp<=700)
     {
         OCR1A=716;
         t = 29;
     }
 
-    else if (710<=temp && temp<=1024)
+    else if (temp>=710 && temp<=1024)
     {
         OCR1A=972;
         t = 33;
