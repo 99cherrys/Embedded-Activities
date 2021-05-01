@@ -42,7 +42,7 @@ int main(void)
 
     if(state)
     {
-         write_tx("Temperature Reading is: ");
+         write_tx("Temperature Reading in Centigrade is: ");
         temp = ReadADC(5);
         degree = heat(temp);
         _delay_ms(200);
