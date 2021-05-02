@@ -69,7 +69,10 @@ uint16_t ReadADC(uint16_t ch)
 
 void write_ch_tx(char ch)
 {
-    while(!(UCSR0A & (1<<UDRE0)));
+    /* wait until the transmitter is ready */
+    while(!(UCSR0A & (1<<UDRE0))); // Do nothing
+	
+    /* Now write the data to the UART buffer */	
     UDR0 = ch;
 }
 
