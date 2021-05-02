@@ -51,8 +51,8 @@ uint16_t ReadADC(uint16_t ch)
 {
     //select ADC channel ch must be 0 to 7
 
-    ADMUX &= 0xf8;
-    ch = ch & 0b00000111;
+    //ADMUX &= 0xf8;
+    //ch = ch & 0b00000111;
     ADMUX |= ch;
 
     // start single conversion of ADC
