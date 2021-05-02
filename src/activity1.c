@@ -18,13 +18,13 @@ void delay_ms(uint32_t delay_time)
 
 void peripheral_init(void)
 {
-	/* Configure LED Pin */
+	/* Configure LED Pin as output */
 	DDRB |= (ON <<LED_PIN);
 	
-	/* Configure Seat button Pin */
+	/* Configure Seat button Pin as input 1 */
     DDRD &= (OFF<<BUTTON_PIN);
 	
-	/* Configure heater switch Pin */
+	/* Configure heater switch Pin as input 2 */
     DDRC &= (OFF<<SWITCH_PIN);
 	
 	/* Convert pull up pin to pull down  nature  */
